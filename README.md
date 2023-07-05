@@ -1,8 +1,8 @@
-# Module-5---Pymaceuticals-Inc
+# Module-5-pharmaceutical-Inc
 
 
 Background
-You've just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
+You've just joined pharmaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
 As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.
 
@@ -17,7 +17,7 @@ Each duplicate mice is found based on the Mouse ID and Timepoint.
 A clean DataFrame is created with the dropped duplicate mice. 
 The number of mice are shown from the clean DataFrame. 
 
-Generate Summary Statistics (15 points)
+Generate Summary Statistics 
 The mean of the tumor volume for each regimen is calculated using groupby. 
 The media of the tumor volume for each regimen is calculated using groupby. 
 The variance of the tumor volume for each regimen is calculated using groupby. 
@@ -25,7 +25,7 @@ The standard deviation of the tumor volume for each regimen is calculated using 
 The SEM of the tumor volume for each regimen is calculated using groupby. 
 A new DataFrame is created with using the summary statistics. 
 
-Create Bar Charts and Pie Charts (15 points)
+Create Bar Charts and Pie Charts 
 A bar plot showing the total number of timepoints for all mice tested for each drug regimen using Pandas is generated. 
 A bar plot showing the total number of timepoints for all mice tested for each drug regimen using pyplot is generated. 
 A pie plot showing the distribution of female versus male mice using Pandas is generated. 
